@@ -67,7 +67,7 @@ SAMPLESPECTRUM.spec  +  INPUT_moleculardata_Barahona2026_sample.txt
 [ Step 2 — MADCUBA_STARS_pythoncode_Barahona2026.ipynb ]   ← JupyterLab 
         │
         ▼
-  Plots · .txt files
+  Plots or .txt files
 ```
 
 ## Important Notes
