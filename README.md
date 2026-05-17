@@ -2,10 +2,10 @@
 
 > Automated detection and statistical analysis of molecules in interstellar molecular clouds.
 
-This repository collects all files developed during an internship at **CAB (Centro de Astrobiología, CSIC-INTA)** for automating the detection of molecules in one of the chemically richest zones of our Galaxy. The pipeline consists of two tools that must be run in sequence:
+This repository collects all files developed during an internship at CAB (Centro de Astrobiología, CSIC-INTA) for automating the detection of molecules in one of the chemically richest zones of our Galaxy. The pipeline consists of two tools that must be run in sequence:
 
-1. **`madcuba_STARS` tool** — runs inside MADCUBA and generates synthetic (simulated) spectra for all molecules present in the reference spectrum.
-2. **`python_STARS` tool** — takes the output of the previous step and performs visualization and statistical analysis.
+1. `madcuba_STARS` tool — runs inside MADCUBA and generates synthetic (simulated) spectra for all molecules present in the reference spectrum.
+2. `python_STARS` tool — takes the output of the previous step and performs visualization and statistical analysis.
 
 Supervisors: Miguel Sanz Novo · Víctor M. Rivilla Rodríguez
 
@@ -75,15 +75,15 @@ SAMPLESPECTRUM.spec  +  INPUT_moleculardata_Barahona2026_sample.txt
 > [!WARNING]
 > **Spectral range limitation — read before use.**
 >
-> The tool currently operates **only within the 30–50 GHz frequency range**. The bundled reference spectrum (`SAMPLESPECTRUM.spec`) covers exclusively this window.
+> The tool currently operates only within the 30–50 GHz frequency range. The bundled reference spectrum (`SAMPLESPECTRUM.spec`) covers exclusively this window.
 >
-> If you need to work with a **different frequency range**, you must supply your own reference spectrum covering that range and update the paths in both files:
+> If you need to work with a different frequency range, you must supply your own reference spectrum covering that range and update the paths in both files:
 > - `MADCUBA_STARS_Tool_sample.py` — lines **23, 50, 53, 56**
 > - `MADCUBA_STARS_pythoncode_Barahona2026.ipynb` — lines **151–154**
 >
-> Make sure your reference spectrum:
-> - Covers the **full frequency range** of your molecular data.
-> - Has **compatible frequency resolution and units**.
+> Make sure your reference spectrum fulfills the following points:
+> - Covers the full frequency range of your molecular data.
+> - Has compatible frequency resolution and units.
 > - Follows the same format as [`SAMPLESPECTRUM.spec`](SAMPLESPECTRUM.spec) (use it as a template).
 
 ---
