@@ -7,8 +7,6 @@ This repository collects all files developed during an internship at CAB (Centro
 1. `madcuba_STARS` tool — runs inside MADCUBA and generates synthetic (simulated) spectra for all molecules present in the reference spectrum.
 2. `python_STARS` tool — takes the output of the previous step and performs visualization and statistical analysis.
 
-Supervisors: Miguel Sanz Novo · Víctor M. Rivilla Rodríguez
-
 ---
 
 ## Table of Contents
