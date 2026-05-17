@@ -2,7 +2,7 @@
 
 > Automated detection and statistical analysis of molecules in interstellar molecular clouds.
 
-This repository collects all files developed during an internship at CAB (Centro de Astrobiología, CSIC-INTA) for automating the detection of molecules in one of the chemically richest zones of our Galaxy. The pipeline consists of two tools that must be run in sequence:
+This repository collects all files developed during an internship at CAB (Centro de Astrobiología, CSIC-INTA) for automating the detection of molecules in one of the chemically richest zones of our Galaxy, G+0.693-0.027. The pipeline consists of two tools that must be run in sequence:
 
 1. `madcuba_STARS` tool — runs inside MADCUBA and generates synthetic (simulated) spectra for all molecules present in the reference spectrum.
 2. `python_STARS` tool — takes the output of the previous step and performs visualization and statistical analysis.
