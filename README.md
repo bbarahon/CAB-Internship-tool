@@ -90,7 +90,7 @@ SAMPLESPECTRUM.spec  +  INPUT_moleculardata_Barahona2026_sample.txt
 
 ## Contact
 
-If you find any issues with either tool, please reach out:
+If you find any issues with any command of the tool, please reach out:
 
 - **Author:** Borja Barahona Gómez — [bbarahon@ucm.es](mailto:bbarahon@ucm.es)
 - **Supervisors:**
