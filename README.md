@@ -21,8 +21,8 @@ This repository collects all files developed during an internship at CAB (Centro
 
 ## Requirements
 
-**For the MADCUBA tool:**
-- [MADCUBA](https://cab.inta-csic.es/madcuba/) with Jython support (downloaded on first run)
+**For the MADCUBA STARS tool:**
+- [MADCUBA](https://cab.inta-csic.es/madcuba/) with Jython support (downloaded on first run). Check out the guide `How_to_use_MADCUBA_STARS_tool.pdf`.
 
 **For the Python tool:**
 - Python 3.x
@@ -30,9 +30,11 @@ This repository collects all files developed during an internship at CAB (Centro
 - Matplotlib
 - SciPy
 
+For installing them, please put in your command window this prompt:
 ```bash
 pip install numpy matplotlib scipy
 ```
+You can check out all the features of the Python STARS tool in the guide `How_to_use_Python_STARS_tool.pdf`.
 
 ---
 
@@ -60,12 +62,12 @@ SAMPLESPECTRUM.spec  +  INPUT_moleculardata_Barahona2026_sample.txt
 [ Step 1 — MADCUBA_STARS_Tool_sample.py ]     ← run inside MADCUBA via Macros → Run
         │
         │  outputs:  molecular_gooddata.txt
-        │            simulate_generate_<molecule>.*   (120+ files)
+        │            simulate_generate_<molecule>.*   (~120 files)
         ▼
-[ Step 2 — MADCUBA_STARS_pythoncode_Barahona2026.ipynb ]   ← JupyterLab / PyCharm
+[ Step 2 — MADCUBA_STARS_pythoncode_Barahona2026.ipynb ]   ← JupyterLab 
         │
         ▼
-  Plots · Statistical analysis · .svg exports
+  Plots · .txt files
 ```
 
 ## Important Notes
